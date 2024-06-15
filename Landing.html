@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>RamFitness</title>
+  <style>
+    *{
+      margin: 0%;
+      padding: 0%;
+    }
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  height: 60px;
+  background-color:  rgba(128, 255, 219, 0.5);;
+  
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header h1 {
+  color: blueviolet;
+  margin: 0;
+}
+
+header nav ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header nav ul li {
+  margin-right: 20px;
+}
+
+header nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+header nav ul li a.active {
+  background-color: #555;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+}
+
+header nav ul li a:hover {
+  background-color: brown;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+}
+
+#join-btn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 6px 12px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  border-top-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+  </style>
+</head>
+<body>
+  <header>
+    <h1>RamFitness</h1>
+    <nav>
+      <ul>
+        <li><a href="#" class="active">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Services</a></li>
+        <li><a href="#">Contact Us</a></li>
+        <li><a href="#" id="join-btn">Join Now</a></li>
+      </ul>
+    </nav>
+  </header>
+  <script src="script.js"></script>
+</body>
+</html>
